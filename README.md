@@ -32,10 +32,13 @@ streamlit run streamlit_app.py
   ```
   !curl -s -L https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared
   ```
-```
-!chmod +x cloudflared
-```
-```
-!./cloudflared tunnel --url http://localhost:8501 --no-autoupdate
-```
-- 각 파일 설명 및 실행화면 올리기
+  ```
+  !chmod +x cloudflared
+  ```
+  ```
+  !./cloudflared tunnel --url http://localhost:8501 --no-autoupdate
+  ```
+### 3. 실행 화면
+#### [1] 입력 예시
+- Json
+#### [2] 실행 화면 예시
