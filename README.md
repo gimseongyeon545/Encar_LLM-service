@@ -45,7 +45,7 @@ streamlit run streamlit_app.py
 - Midm:2.0 Mini 사용
   - 좋은 환경에서 더 좋은 성능을 위해서는 Midm:2.0 Base 모델을 사용
     - [코드 변경 부분]
-      [1] `inference.py`
+      - [1] `inference.py`
         - `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
-      [2] `midm.py`
+      - [2] `midm.py`
         - `DEFAULT_MODEL = os.getenv("TRANSFORMERS_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
