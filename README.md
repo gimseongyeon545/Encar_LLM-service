@@ -52,8 +52,8 @@
   - [2] `midm.py`
     - `DEFAULT_MODEL = os.getenv("TRANSFORMERS_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
 #### [3] 실제 입력 및 실행 결과
-##### (1) Persona A1
-1. 입력
+##### (1) **Persona A1**
+- 1. 입력
   - JSON 입력
     ```
     [
@@ -101,13 +101,13 @@
     ```
   - Persona: `아기 있는 엄마`
   - user_note: `장거리 운전이 필요해요.`
-2. 실행 결과 (결과 캡쳐)
+- 2. 실행 결과 (결과 캡쳐)
   <img width="1080" height="2871" alt="Image" src="https://github.com/user-attachments/assets/726b98d8-024a-444e-a506-b0ec7641b176" />
 
 </br>
 
-##### (2) Persona A2
-1. 입력
+##### (2) **Persona A2**
+- 1. 입력
   - JSON 입력
     ```
     [
@@ -155,15 +155,15 @@
     ```
   - Persona: `아기 있는 엄마`
   - user_note: `장거리 운전이 필요해요. 1200만원 이하면 좋겠어요.`
-2. 실행 결과 (영상 및 결과 캡쳐)
+- 2. 실행 결과 (영상 및 결과 캡쳐)
   https://github.com/user-attachments/assets/6b97e279-fc91-40d3-88ad-fac2527e2923
   ![Image](https://github.com/user-attachments/assets/a2741ebb-e748-43d7-9245-e711784bbd6c)
   <img width="1080" height="2983" alt="Image" src="https://github.com/user-attachments/assets/282a3831-9eaf-48c2-a005-680d739e1488" />
   
 </br>
 
-##### (3) Persona B
-1. 입력
+##### (3) **Persona B**
+- 1. 입력
   - JSON 입력
     ```
       {
@@ -189,5 +189,5 @@
     ```
   - Persona: `빨리 팔고 싶은 사람`
 
-2. 실행 결과 (결과 캡쳐)
+- 2. 실행 결과 (결과 캡쳐)
   <img width="1080" height="2348" alt="Image" src="https://github.com/user-attachments/assets/8a3136bd-26e9-4693-9052-00dbd7baeabf" />
