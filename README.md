@@ -117,7 +117,6 @@ ii. 실행 결과 (결과 캡쳐)
   > <img width="432" height="1148" alt="Image" src="https://github.com/user-attachments/assets/726b98d8-024a-444e-a506-b0ec7641b176" />
 
 </br>
-</br>
 
 ##### (2) **Persona A2**
 i. 입력
@@ -173,10 +172,9 @@ i. 입력
 
 ii. 실행 결과 (영상 및 결과 캡쳐)
     https://github.com/user-attachments/assets/6b97e279-fc91-40d3-88ad-fac2527e2923
-    ![Image](https://github.com/user-attachments/assets/a2741ebb-e748-43d7-9245-e711784bbd6c)
-    <img width="1080" height="2983" alt="Image" src="https://github.com/user-attachments/assets/282a3831-9eaf-48c2-a005-680d739e1488" />
+    > ![Image](https://github.com/user-attachments/assets/a2741ebb-e748-43d7-9245-e711784bbd6c)
+    > <img width="1080" height="2983" alt="Image" src="https://github.com/user-attachments/assets/282a3831-9eaf-48c2-a005-680d739e1488" />
     
-</br>
 </br>
 
 ##### (3) **Persona B**
