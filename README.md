@@ -103,6 +103,8 @@
 - 실행 결과 (결과 캡쳐)
   <img width="1080" height="2871" alt="Image" src="https://github.com/user-attachments/assets/726b98d8-024a-444e-a506-b0ec7641b176" />
 
+</br>
+
 ##### (2) Persona A2
 - JSON 입력
   ```
@@ -154,4 +156,34 @@
 - 실행 결과 (영상 및 결과 캡쳐)
   https://github.com/gimseongyeon545/Encar_LLM-service/issues/1#issue-3651384931
   ![Image](https://github.com/user-attachments/assets/a2741ebb-e748-43d7-9245-e711784bbd6c)
-  <img width="1080" height="2871" alt="Image" src="https://github.com/user-attachments/assets/726b98d8-024a-444e-a506-b0ec7641b176" />
+  <img width="1080" height="2983" alt="Image" src="https://github.com/user-attachments/assets/282a3831-9eaf-48c2-a005-680d739e1488" />
+  
+</br>
+
+##### (3) Persona B
+- JSON 입력
+  ```
+    {
+    "title": "쏘나타 DN8 2.0 가솔린 프리미엄",
+    "year": 2021,
+    "mileage_km": 48000,
+    "price_krw": 18500000,
+    "color": "금색",
+    "accident_history": "앞펜더 단순교환 1회, 프레임 손상 없음",
+    "usage_history": "렌트 이력 1년, 이후 개인 자가용 2년",
+    "options": [
+      "스마트크루즈",
+      "차선이탈보조",
+      "통풍시트",
+      "후측방경보"
+    ],
+    "inspection": {
+      "encar_inspection": "엔카진단+",
+      "comments": "외관 경미한 스톤칩, 하부 부식 없음, 타이어 마모 40% 정도 남음"
+    },
+    "market_price_hint": "동급 평균 시세 대비 약간 낮은 편"
+  }
+  ```
+- Persona: `빨리 팔고 싶은 사람`
+- 실행 결과 (결과 캡쳐)
+  <img width="1080" height="2983" alt="Image" src="https://github.com/user-attachments/assets/282a3831-9eaf-48c2-a005-680d739e1488" />
