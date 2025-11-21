@@ -2,11 +2,15 @@
 ## Track2 AI 서비스 기획
 ## Contents
 ### 1. source code
+---
 - `midm.py`
 - `inference.py`
-- 
 - `streamlit_app.py`
+
+</br>
+  
 ### 2. 실행 방법
+---
 [1] 로컬 환경 (window 기준 명령어)
 - 라이브러리: `requirements.txt` 참고
 - commands
@@ -41,7 +45,11 @@
   ```
   !./cloudflared tunnel --url http://localhost:8501 --no-autoupdate
   ```
+
+</br>
+
 ### 3. 실행 화면
+---
 #### [1] 입력
 - 매물: JSON 형식
 - Persona & user_note: 일반 텍스트 형식
@@ -106,7 +114,7 @@ i. 입력
 </br>
 
 ii. 실행 결과 (결과 캡쳐)
-    <img width="1080" height="2871" alt="Image" src="https://github.com/user-attachments/assets/726b98d8-024a-444e-a506-b0ec7641b176" />
+    <img width="648" height="1723" alt="Image" src="https://github.com/user-attachments/assets/726b98d8-024a-444e-a506-b0ec7641b176" />
 
 </br>
 </br>
