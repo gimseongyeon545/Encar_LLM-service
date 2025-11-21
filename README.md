@@ -6,7 +6,7 @@
 - `inference.py`
 - `streamlit_app.py`
 ### 2. 실행 방법
-[1] 일반 python 환경
+[1] 로컬 환경
 - `requirements.txt` 참고
 ```
 python midm.py --prefetch
