@@ -51,109 +51,111 @@
     - `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
   - [2] `midm.py`
     - `DEFAULT_MODEL = os.getenv("TRANSFORMERS_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
-#### [3] 실제 실행 결과
+#### [3] 실제 입력 및 실행 결과
 ##### (1) Persona A1
-- JSON 입력
-  ```
-  [
-    {
-      "title": "쏘나타 DN8 2.0 가솔린 프리미엄",
-      "year": 2021,
-      "mileage_km": 48000,
-      "price_krw": 18500000,
-      "color": "금색",
-      "accident_history": "앞펜더 단순교환 1회, 프레임 손상 없음",
-      "usage_history": "렌트 이력 1년, 이후 개인 자가용 2년",
-      "options": [
-        "스마트크루즈",
-        "차선이탈보조",
-        "통풍시트",
-        "후측방경보"
-      ],
-      "inspection": {
-        "encar_inspection": "엔카진단+",
-        "comments": "외관 경미한 스톤칩, 하부 부식 없음, 타이어 마모 40% 정도 남음"
+1. 입력
+  - JSON 입력
+    ```
+    [
+      {
+        "title": "쏘나타 DN8 2.0 가솔린 프리미엄",
+        "year": 2021,
+        "mileage_km": 48000,
+        "price_krw": 18500000,
+        "color": "금색",
+        "accident_history": "앞펜더 단순교환 1회, 프레임 손상 없음",
+        "usage_history": "렌트 이력 1년, 이후 개인 자가용 2년",
+        "options": [
+          "스마트크루즈",
+          "차선이탈보조",
+          "통풍시트",
+          "후측방경보"
+        ],
+        "inspection": {
+          "encar_inspection": "엔카진단+",
+          "comments": "외관 경미한 스톤칩, 하부 부식 없음, 타이어 마모 40% 정도 남음"
+        },
+        "market_price_hint": "동급 평균 시세 대비 약간 낮은 편"
       },
-      "market_price_hint": "동급 평균 시세 대비 약간 낮은 편"
-    },
-    {
-      "title": "K5 DL3 2.0 가솔린 노블레스",
-      "year": 2020,
-      "mileage_km": 62000,
-      "price_krw": 17900000,
-      "color": "핑크색",
-      "accident_history": "무사고, 단순판금 도색 있음",
-      "usage_history": "개인 출퇴근용 4년",
-      "options": [
-        "크루즈컨트롤",
-        "차선이탈경고",
-        "열선시트",
-        "전방주차센서"
-      ],
-      "inspection": {
-        "encar_inspection": "엔카진단",
-        "comments": "외관 스크래치 일부, 하부 부식 없음, 타이어 마모 30% 정도 남음"
-      },
-      "market_price_hint": "동급 평균 시세와 비슷한 편"
-    }
-  ]
-  ```
-- Persona: `아기 있는 엄마`
-- user_note: `장거리 운전이 필요해요.`
-- 실행 결과 (결과 캡쳐)
+      {
+        "title": "K5 DL3 2.0 가솔린 노블레스",
+        "year": 2020,
+        "mileage_km": 62000,
+        "price_krw": 17900000,
+        "color": "핑크색",
+        "accident_history": "무사고, 단순판금 도색 있음",
+        "usage_history": "개인 출퇴근용 4년",
+        "options": [
+          "크루즈컨트롤",
+          "차선이탈경고",
+          "열선시트",
+          "전방주차센서"
+        ],
+        "inspection": {
+          "encar_inspection": "엔카진단",
+          "comments": "외관 스크래치 일부, 하부 부식 없음, 타이어 마모 30% 정도 남음"
+        },
+        "market_price_hint": "동급 평균 시세와 비슷한 편"
+      }
+    ]
+    ```
+  - Persona: `아기 있는 엄마`
+  - user_note: `장거리 운전이 필요해요.`
+2. 실행 결과 (결과 캡쳐)
   <img width="1080" height="2871" alt="Image" src="https://github.com/user-attachments/assets/726b98d8-024a-444e-a506-b0ec7641b176" />
 
 </br>
 
 ##### (2) Persona A2
-- JSON 입력
-  ```
-  [
-    {
-      "title": "쏘나타 DN8 2.0 가솔린 프리미엄",
-      "year": 2021,
-      "mileage_km": 48000,
-      "price_krw": 18500000,
-      "color": "금색",
-      "accident_history": "앞펜더 단순교환 1회, 프레임 손상 없음",
-      "usage_history": "렌트 이력 1년, 이후 개인 자가용 2년",
-      "options": [
-        "스마트크루즈",
-        "차선이탈보조",
-        "통풍시트",
-        "후측방경보"
-      ],
-      "inspection": {
-        "encar_inspection": "엔카진단+",
-        "comments": "외관 경미한 스톤칩, 하부 부식 없음, 타이어 마모 40% 정도 남음"
+1. 입력
+  - JSON 입력
+    ```
+    [
+      {
+        "title": "쏘나타 DN8 2.0 가솔린 프리미엄",
+        "year": 2021,
+        "mileage_km": 48000,
+        "price_krw": 18500000,
+        "color": "금색",
+        "accident_history": "앞펜더 단순교환 1회, 프레임 손상 없음",
+        "usage_history": "렌트 이력 1년, 이후 개인 자가용 2년",
+        "options": [
+          "스마트크루즈",
+          "차선이탈보조",
+          "통풍시트",
+          "후측방경보"
+        ],
+        "inspection": {
+          "encar_inspection": "엔카진단+",
+          "comments": "외관 경미한 스톤칩, 하부 부식 없음, 타이어 마모 40% 정도 남음"
+        },
+        "market_price_hint": "동급 평균 시세 대비 약간 낮은 편"
       },
-      "market_price_hint": "동급 평균 시세 대비 약간 낮은 편"
-    },
-    {
-      "title": "K5 DL3 2.0 가솔린 노블레스",
-      "year": 2020,
-      "mileage_km": 62000,
-      "price_krw": 17900000,
-      "color": "핑크색",
-      "accident_history": "무사고, 단순판금 도색 있음",
-      "usage_history": "개인 출퇴근용 4년",
-      "options": [
-        "크루즈컨트롤",
-        "차선이탈경고",
-        "열선시트",
-        "전방주차센서"
-      ],
-      "inspection": {
-        "encar_inspection": "엔카진단",
-        "comments": "외관 스크래치 일부, 하부 부식 없음, 타이어 마모 30% 정도 남음"
-      },
-      "market_price_hint": "동급 평균 시세와 비슷한 편"
-    }
-  ]
-  ```
-- Persona: `아기 있는 엄마`
-- user_note: `장거리 운전이 필요해요. 1200만원 이하면 좋겠어요.`
-- 실행 결과 (영상 및 결과 캡쳐)
+      {
+        "title": "K5 DL3 2.0 가솔린 노블레스",
+        "year": 2020,
+        "mileage_km": 62000,
+        "price_krw": 17900000,
+        "color": "핑크색",
+        "accident_history": "무사고, 단순판금 도색 있음",
+        "usage_history": "개인 출퇴근용 4년",
+        "options": [
+          "크루즈컨트롤",
+          "차선이탈경고",
+          "열선시트",
+          "전방주차센서"
+        ],
+        "inspection": {
+          "encar_inspection": "엔카진단",
+          "comments": "외관 스크래치 일부, 하부 부식 없음, 타이어 마모 30% 정도 남음"
+        },
+        "market_price_hint": "동급 평균 시세와 비슷한 편"
+      }
+    ]
+    ```
+  - Persona: `아기 있는 엄마`
+  - user_note: `장거리 운전이 필요해요. 1200만원 이하면 좋겠어요.`
+2. 실행 결과 (영상 및 결과 캡쳐)
   https://github.com/user-attachments/assets/6b97e279-fc91-40d3-88ad-fac2527e2923
   ![Image](https://github.com/user-attachments/assets/a2741ebb-e748-43d7-9245-e711784bbd6c)
   <img width="1080" height="2983" alt="Image" src="https://github.com/user-attachments/assets/282a3831-9eaf-48c2-a005-680d739e1488" />
@@ -161,29 +163,31 @@
 </br>
 
 ##### (3) Persona B
-- JSON 입력
-  ```
-    {
-    "title": "쏘나타 DN8 2.0 가솔린 프리미엄",
-    "year": 2021,
-    "mileage_km": 48000,
-    "price_krw": 18500000,
-    "color": "금색",
-    "accident_history": "앞펜더 단순교환 1회, 프레임 손상 없음",
-    "usage_history": "렌트 이력 1년, 이후 개인 자가용 2년",
-    "options": [
-      "스마트크루즈",
-      "차선이탈보조",
-      "통풍시트",
-      "후측방경보"
-    ],
-    "inspection": {
-      "encar_inspection": "엔카진단+",
-      "comments": "외관 경미한 스톤칩, 하부 부식 없음, 타이어 마모 40% 정도 남음"
-    },
-    "market_price_hint": "동급 평균 시세 대비 약간 낮은 편"
-  }
-  ```
-- Persona: `빨리 팔고 싶은 사람`
-- 실행 결과 (결과 캡쳐)
+1. 입력
+  - JSON 입력
+    ```
+      {
+      "title": "쏘나타 DN8 2.0 가솔린 프리미엄",
+      "year": 2021,
+      "mileage_km": 48000,
+      "price_krw": 18500000,
+      "color": "금색",
+      "accident_history": "앞펜더 단순교환 1회, 프레임 손상 없음",
+      "usage_history": "렌트 이력 1년, 이후 개인 자가용 2년",
+      "options": [
+        "스마트크루즈",
+        "차선이탈보조",
+        "통풍시트",
+        "후측방경보"
+      ],
+      "inspection": {
+        "encar_inspection": "엔카진단+",
+        "comments": "외관 경미한 스톤칩, 하부 부식 없음, 타이어 마모 40% 정도 남음"
+      },
+      "market_price_hint": "동급 평균 시세 대비 약간 낮은 편"
+    }
+    ```
+  - Persona: `빨리 팔고 싶은 사람`
+
+2. 실행 결과 (결과 캡쳐)
   <img width="1080" height="2348" alt="Image" src="https://github.com/user-attachments/assets/8a3136bd-26e9-4693-9052-00dbd7baeabf" />
