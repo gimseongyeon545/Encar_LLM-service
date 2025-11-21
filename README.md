@@ -115,9 +115,9 @@ i. 입력
 
 ii. 실행 결과 (결과 캡쳐)
     
-    </br>
-    
-    <img width="648" height="1723" alt="Image" src="https://github.com/user-attachments/assets/726b98d8-024a-444e-a506-b0ec7641b176" />
+  </br>
+  
+  <img width="648" height="1723" alt="Image" src="https://github.com/user-attachments/assets/726b98d8-024a-444e-a506-b0ec7641b176" />
 
 </br>
 </br>
