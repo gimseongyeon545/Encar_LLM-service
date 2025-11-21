@@ -207,4 +207,4 @@ i. 입력
 </br>
 
 ii. 실행 결과 (결과 캡쳐)
-    > <img width="1080" height="2348" alt="Image" src="https://github.com/user-attachments/assets/8a3136bd-26e9-4693-9052-00dbd7baeabf" />
+    > <img width="432" height="939" alt="Image" src="https://github.com/user-attachments/assets/8a3136bd-26e9-4693-9052-00dbd7baeabf" />
