@@ -7,26 +7,27 @@
 - `streamlit_app.py`
 ### 2. 실행 방법
 [1] 로컬 환경
-- `requirements.txt` 참고
-```
-python midm.py --prefetch
-```
-```
-streamlit run streamlit_app.py
-```
+- 라이브러리: `requirements.txt` 참고
+- commands
+  ```
+  python midm.py --prefetch
+  ```
+  ```
+  streamlit run streamlit_app.py
+  ```
 [2] colab
-- 기본 설치
+- 기본 설치 commands
   ```
   !pip install bitsandbytes
   ```
   ```
   !pip install streamlit
   ```
-- midm 모델 다운로드
+- midm 모델 다운로드 commands
   ```
   !python midm.py --prefetch
   ```
-- streamlit 실행
+- streamlit 실행 commands
   ```
   !streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501 &>/content/streamlit.log &
   ```
