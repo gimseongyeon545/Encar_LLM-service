@@ -101,4 +101,4 @@
 - Persona: `아기 있는 엄마`
 - user_note: `장거리 운전이 필요해요.`
 - 실행 결과 (영상 및 결과 캡쳐)
-  
+  https://github.com/gimseongyeon545/Encar_LLM-service/issues/1#issue-3651384931
