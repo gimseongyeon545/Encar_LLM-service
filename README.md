@@ -154,7 +154,7 @@
 - Persona: `아기 있는 엄마`
 - user_note: `장거리 운전이 필요해요. 1200만원 이하면 좋겠어요.`
 - 실행 결과 (영상 및 결과 캡쳐)
-  https://github.com/gimseongyeon545/Encar_LLM-service/issues/1#issue-3651384931
+  https://github.com/user-attachments/assets/6b97e279-fc91-40d3-88ad-fac2527e2923
   ![Image](https://github.com/user-attachments/assets/a2741ebb-e748-43d7-9245-e711784bbd6c)
   <img width="1080" height="2983" alt="Image" src="https://github.com/user-attachments/assets/282a3831-9eaf-48c2-a005-680d739e1488" />
   
@@ -186,4 +186,4 @@
   ```
 - Persona: `빨리 팔고 싶은 사람`
 - 실행 결과 (결과 캡쳐)
-  <img width="1080" height="2983" alt="Image" src="https://github.com/user-attachments/assets/282a3831-9eaf-48c2-a005-680d739e1488" />
+  <img width="1080" height="2348" alt="Image" src="https://github.com/user-attachments/assets/8a3136bd-26e9-4693-9052-00dbd7baeabf" />
