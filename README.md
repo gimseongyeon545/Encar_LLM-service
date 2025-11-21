@@ -103,3 +103,4 @@
 - 실행 결과 (영상 및 결과 캡쳐)
   https://github.com/gimseongyeon545/Encar_LLM-service/issues/1#issue-3651384931
   ![Image](https://github.com/user-attachments/assets/a2741ebb-e748-43d7-9245-e711784bbd6c)
+  
