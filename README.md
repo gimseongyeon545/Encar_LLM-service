@@ -56,11 +56,13 @@
 #### [2] 사용 모델: **Midm:2.0 Mini** 
 - 좋은 환경에서 더 좋은 성능을 위해서는 기존 코드대로 Midm:2.0 Base 모델을 사용
 - [코드 변경 부분]
+  # 모델 Base 대신 Mini 사용시 변경 사항
   - [1] `inference.py`
-    - `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Base-Instruct")` -> `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
+      - `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Base-Instruct")` ➡️ `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
   - [2] `midm.py`
-    - `DEFAULT_MODEL = os.getenv("TRANSFORMERS_MODEL", "K-intelligence/Midm-2.0-Base-Instruct")` -> `DEFAULT_MODEL = os.getenv("TRANSFORMERS_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
-    - 
+    - `DEFAULT_MODEL = os.getenv("TRANSFORMERS_MODEL", "K-intelligence/Midm-2.0-Base-Instruct")` ➡️ `DEFAULT_MODEL = os.getenv("TRANSFORMERS_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
+    - `os.environ.setdefault("TRANSFORMERS_MODEL", "K-intelligence/Midm-2.0-Base-Instruct")` ➡️ `os.environ.setdefault("TRANSFORMERS_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
+
 #### [3] 실제 입력 및 실행 결과
 ##### (1) ✅ **Persona A1**
 i. 입력
