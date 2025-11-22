@@ -170,10 +170,12 @@ i. 입력
 
 </br>
 
+https://github.com/user-attachments/assets/6b97e279-fc91-40d3-88ad-fac2527e2923
+
 ii. 실행 결과 (영상 및 결과 캡쳐)
   > https://github.com/user-attachments/assets/6b97e279-fc91-40d3-88ad-fac2527e2923
   > ![Image](https://github.com/user-attachments/assets/a2741ebb-e748-43d7-9245-e711784bbd6c)
-  > <img width = "432" height="1193" src = "https://github.com/user-attachments/assets/6b97e279-fc91-40d3-88ad-fac2527e2923" />
+
   > <img width="432" height="1193" alt="Image" src="https://github.com/user-attachments/assets/282a3831-9eaf-48c2-a005-680d739e1488" />
     
 </br>
