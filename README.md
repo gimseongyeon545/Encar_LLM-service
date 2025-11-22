@@ -57,7 +57,7 @@
 - 좋은 환경에서 더 좋은 성능을 위해서는 기존 코드대로 Midm:2.0 Base 모델을 사용
 - [코드 변경 부분]
   - [1] `inference.py`
-    - `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
+    - `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Base-Instruct")` -> `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
   - [2] `midm.py`
     - `DEFAULT_MODEL = os.getenv("TRANSFORMERS_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
 #### [3] 실제 입력 및 실행 결과
