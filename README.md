@@ -118,7 +118,7 @@ ii. 실행 결과 (결과 캡쳐)
 
 </br>
 
-##### (2) **Persona A2<img width="150" height="123" alt="image" src="https://github.com/user-attachments/assets/a23d742d-e289-4a36-ba90-11683d59f504" />**
+##### (2) **Persona A2💸**
 i. 입력
   - JSON 입력
     ```
