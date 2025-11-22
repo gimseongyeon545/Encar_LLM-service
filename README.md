@@ -114,6 +114,7 @@ i. 입력
 </br>
 
 ii. 실행 결과 (결과 캡쳐)
+    
   > <img width="432" height="1148" alt="Image" src="https://github.com/user-attachments/assets/726b98d8-024a-444e-a506-b0ec7641b176" />
 
 </br>
