@@ -61,7 +61,7 @@
   - [2] `midm.py`
     - `DEFAULT_MODEL = os.getenv("TRANSFORMERS_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
 #### [3] 실제 입력 및 실행 결과
-##### (1) 📌**Persona A1**
+##### (1) ✅ **Persona A1**
 i. 입력
   - JSON 입력
     ```
@@ -118,7 +118,7 @@ ii. 실행 결과 (결과 캡쳐)
 
 </br>
 
-##### (2) 📌**Persona A2💸**
+##### (2) ✅ **Persona A2💸**
 i. 입력
   - JSON 입력
     ```
@@ -177,7 +177,7 @@ ii. 실행 결과 (영상 및 결과 캡쳐)
     
 </br>
 
-##### (3) 📌**Persona B**
+##### (3) ✅ **Persona B**
 i. 입력
   - JSON 입력
     ```
