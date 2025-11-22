@@ -55,8 +55,7 @@
 - Persona & user_note: 일반 텍스트 형식
 #### [2] 사용 모델: **Midm:2.0 Mini** 
 - 좋은 환경에서 더 좋은 성능을 위해서는 기존 코드대로 Midm:2.0 Base 모델을 사용
-- [코드 변경 부분]
-  # 모델 Base 대신 Mini 사용시 변경 사항
+- [코드 변경 부분]: `"K-intelligence/Midm-2.0-Base-Instruct"` ➡️ `"K-intelligence/Midm-2.0-Mini-Instruct"`
   - [1] `inference.py`
       - `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Base-Instruct")` ➡️ `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
   - [2] `midm.py`
