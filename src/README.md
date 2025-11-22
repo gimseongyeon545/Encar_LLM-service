@@ -1,4 +1,5 @@
-# 모델 Base 대신 Mini 사용시 변경 사항
+# 모델 Midm:2.0 Base 대신 Midm:2.0 Mini 사용시 변경 사항
+- `"K-intelligence/Midm-2.0-Base-Instruct"` ➡️ `"K-intelligence/Midm-2.0-Mini-Instruct"`
 - [1] `inference.py`
     - `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Base-Instruct")` ➡️ `MODEL_ID_DEFAULT = os.getenv("MIDM_MODEL", "K-intelligence/Midm-2.0-Mini-Instruct")`
 - [2] `midm.py`
