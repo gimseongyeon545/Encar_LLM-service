@@ -17,39 +17,60 @@
 ---
 [1] 로컬 환경 (window 기준 명령어)
 - 라이브러리: `requirements.txt` 참고
-- commands
-  ```
-  python midm.py --prefetch
-  ```
-  ```
-  streamlit run streamlit_app.py
-  ```
+  
+- (1) 레포 다운로드
+    ```
+    git clone https://github.com/gimseongyeon545/Encar_LLM-service.git
+    cd Encar_LLM-service
+    ```
+- (2) (선택) 가상환경
+    ```
+    python -m venv .encar
+    ```
+    ```
+    .\.encar\Scripts\activate
+    ```
+- (3) 라이브러리 설치
+    ```
+    pip install -r requirements.txt
+    ```
+- (4) Midm 모델 다운로드 & Streamlit 앱 실행
+    ```
+    python src/midm.py --prefetch
+    ```
+    ```
+    streamlit run src/streamlit_app.py
+    ```
+
+</br>
+  
 [2] colab
 - gpu 설정: T4 GPU
-- 기본 설치 commands
-  ```
-  !pip install bitsandbytes
-  ```
-  ```
-  !pip install streamlit
-  ```
-- midm 모델 다운로드 commands
-  ```
-  !python midm.py --prefetch
-  ```
-- streamlit 실행 commands
-  ```
-  !streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501 &>/content/streamlit.log &
-  ```
-  ```
-  !curl -s -L https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared
-  ```
-  ```
-  !chmod +x cloudflared
-  ```
-  ```
-  !./cloudflared tunnel --url http://localhost:8501 --no-autoupdate
-  ```
+  
+- (1) 기본 설치 commands
+    ```
+    !pip install bitsandbytes
+    ```
+    ```
+    !pip install streamlit
+    ```
+- (2) midm 모델 다운로드 commands
+    ```
+    !python midm.py --prefetch
+    ```
+- (3) streamlit 실행 commands
+    ```
+    !streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501 &>/content/streamlit.log &
+    ```
+    ```
+    !curl -s -L https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared
+    ```
+    ```
+    !chmod +x cloudflared
+    ```
+    ```
+    !./cloudflared tunnel --url http://localhost:8501 --no-autoupdate
+    ```
 
 </br>
 
