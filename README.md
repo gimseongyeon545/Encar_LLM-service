@@ -47,6 +47,10 @@
 [2] colab
 - gpu 설정: T4 GPU
   
+- (0) 레포 다운로드 및 **src 폴더 내 3개 코드 colab 파일에 업로드**
+  ```
+  git clone https://github.com/gimseongyeon545/Encar_LLM-service.git
+  ```
 - (1) 기본 설치 commands
     ```
     !pip install bitsandbytes
