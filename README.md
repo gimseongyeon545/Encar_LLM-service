@@ -56,11 +56,11 @@
     ```
 - (2) midm 모델 다운로드 commands
     ```
-    !python midm.py --prefetch
+    !python src/midm.py --prefetch
     ```
 - (3) streamlit 실행 commands
     ```
-    !streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501 &>/content/streamlit.log &
+    !streamlit run src/streamlit_app.py --server.address 0.0.0.0 --server.port 8501 &>/content/streamlit.log &
     ```
     ```
     !curl -s -L https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared
