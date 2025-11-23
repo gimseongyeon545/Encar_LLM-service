@@ -25,6 +25,7 @@
   streamlit run streamlit_app.py
   ```
 [2] colab
+- gpu 설정: T4 GPU
 - 기본 설치 commands
   ```
   !pip install bitsandbytes
