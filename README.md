@@ -48,9 +48,9 @@
 - gpu 설정: T4 GPU
   
 - (0) 레포 다운로드 및 **src 폴더 내 3개 코드 colab 파일에 업로드**
-  ```
-  git clone https://github.com/gimseongyeon545/Encar_LLM-service.git
-  ```
+    ```
+    git clone https://github.com/gimseongyeon545/Encar_LLM-service.git
+    ```
 - (1) 기본 설치 commands
     ```
     !pip install bitsandbytes
@@ -60,11 +60,11 @@
     ```
 - (2) midm 모델 다운로드 commands
     ```
-    !python src/midm.py --prefetch
+    !python midm.py --prefetch
     ```
 - (3) streamlit 실행 commands
     ```
-    !streamlit run src/streamlit_app.py --server.address 0.0.0.0 --server.port 8501 &>/content/streamlit.log &
+    !streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501 &>/content/streamlit.log &
     ```
     ```
     !curl -s -L https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared
