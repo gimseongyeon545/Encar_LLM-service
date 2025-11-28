@@ -36,6 +36,9 @@
     ```
     pip install -r requirements.txt
     ```
+    ```
+    python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+    ```
 - (4) Midm 모델 다운로드 & Streamlit 앱 실행
     ```
     python src/midm.py --prefetch
